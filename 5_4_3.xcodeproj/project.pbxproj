@@ -21,6 +21,10 @@
 		00AA40A71888CC80006F1237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA40891888CC80006F1237 /* UIKit.framework */; };
 		00AA40AF1888CC80006F1237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AA40AD1888CC80006F1237 /* InfoPlist.strings */; };
 		00AA40B11888CC80006F1237 /* __4_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA40B01888CC80006F1237 /* __4_3Tests.m */; };
+		00AA40BB1888CCB6006F1237 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA40BA1888CCB6006F1237 /* AVFoundation.framework */; };
+		00AA40BF1888EC50006F1237 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00AA40BC1888EC50006F1237 /* music1.mp3 */; };
+		00AA40C01888EC50006F1237 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00AA40BD1888EC50006F1237 /* music2.mp3 */; };
+		00AA40C11888EC50006F1237 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00AA40BE1888EC50006F1237 /* music3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		00AA40AC1888CC80006F1237 /* 5_4_3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "5_4_3Tests-Info.plist"; sourceTree = "<group>"; };
 		00AA40AE1888CC80006F1237 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AA40B01888CC80006F1237 /* __4_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __4_3Tests.m; sourceTree = "<group>"; };
+		00AA40BA1888CCB6006F1237 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		00AA40BC1888EC50006F1237 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		00AA40BD1888EC50006F1237 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		00AA40BE1888EC50006F1237 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AA40BB1888CCB6006F1237 /* AVFoundation.framework in Frameworks */,
 				00AA40881888CC80006F1237 /* CoreGraphics.framework in Frameworks */,
 				00AA408A1888CC80006F1237 /* UIKit.framework in Frameworks */,
 				00AA40861888CC80006F1237 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		00AA40841888CC80006F1237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AA40BA1888CCB6006F1237 /* AVFoundation.framework */,
 				00AA40851888CC80006F1237 /* Foundation.framework */,
 				00AA40871888CC80006F1237 /* CoreGraphics.framework */,
 				00AA40891888CC80006F1237 /* UIKit.framework */,
@@ -112,6 +122,9 @@
 		00AA408B1888CC80006F1237 /* 5_4_3 */ = {
 			isa = PBXGroup;
 			children = (
+				00AA40BC1888EC50006F1237 /* music1.mp3 */,
+				00AA40BD1888EC50006F1237 /* music2.mp3 */,
+				00AA40BE1888EC50006F1237 /* music3.mp3 */,
 				00AA40941888CC80006F1237 /* AppDelegate.h */,
 				00AA40951888CC80006F1237 /* AppDelegate.m */,
 				00AA40971888CC80006F1237 /* Main.storyboard */,
@@ -230,6 +243,9 @@
 			files = (
 				00AA409E1888CC80006F1237 /* Images.xcassets in Resources */,
 				00AA40901888CC80006F1237 /* InfoPlist.strings in Resources */,
+				00AA40C11888EC50006F1237 /* music3.mp3 in Resources */,
+				00AA40BF1888EC50006F1237 /* music1.mp3 in Resources */,
+				00AA40C01888EC50006F1237 /* music2.mp3 in Resources */,
 				00AA40991888CC80006F1237 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
